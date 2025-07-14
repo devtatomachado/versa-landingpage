@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #231341;
+	max-height: 100vh;
+}
+
+main {
+	z-index: 1;
+}
+
+.texture {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	z-index: -1;
+	mix-blend-mode: multiply;
+
+	filter: contrast(80%);
+}
