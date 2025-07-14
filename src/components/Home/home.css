@@ -117,3 +117,26 @@ img {
 		padding: 0.5rem 3.5rem;
 	}
 }
+
+@media (max-width: 380px) {
+	img {
+		width: 250px;
+		filter: drop-shadow(0 0 10px rgba(145, 114, 231, 0.8));
+	}
+
+	.home {
+		gap: 3rem;
+	}
+
+	.list-socialmedia {
+		display: none;
+	}
+
+	.list-socialmedia-mobile {
+		display: flex;
+	}
+
+	.list-socialmedia-mobile li {
+		padding: 0.2rem 2rem;
+	}
+}

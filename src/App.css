@@ -15,7 +15,7 @@ main {
 }
 
 .texture {
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -31,5 +31,5 @@ main {
 	filter: contrast(80%);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 380px) {
 }
