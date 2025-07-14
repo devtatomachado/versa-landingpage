@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        <img src="public/texture.jpg" className='texture' />
+        <img src="texture.jpg" className='texture' />
       </main>
       {/* <Menu /> */}
     </>

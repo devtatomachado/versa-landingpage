@@ -14,7 +14,7 @@ function Home() {
                     duration: 1,
                     scale: { type: "spring", visualDuration: 1, bounce: 0.5 },
                 }}>
-                <img src="public\LogoBranco.png" alt="Logo da banda Versa" />
+                <img src="LogoBranco.png" alt="Logo da banda Versa" />
             </motion.h1>
             <ul className="list-socialmedia">
                 <li><a href=""><FaInstagram /></a></li>
