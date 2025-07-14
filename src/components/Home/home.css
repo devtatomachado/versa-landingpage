@@ -76,10 +76,6 @@ img {
 	font-weight: 600;
 	text-decoration: none;
 }
-
-.list-socialmedia-mobile a:hover {
-}
-
 @media (max-width: 800px) {
 	img {
 		width: 550px;
