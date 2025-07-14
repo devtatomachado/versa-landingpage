@@ -1,13 +1,16 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Menu from './components/Menu/Menu'
+import Home from './components/Home/Home.jsx'
 
 function App() {
 
   return (
     <>
       <main>
-        <Outlet className="outlet" />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
         <img src="public/texture.jpg" className='texture' />
       </main>
       {/* <Menu /> */}
