@@ -7,6 +7,7 @@
 body {
 	background-color: #231341;
 	max-height: 100vh;
+	font-family: sans-serif;
 }
 
 main {
@@ -28,4 +29,7 @@ main {
 	mix-blend-mode: multiply;
 
 	filter: contrast(80%);
+}
+
+@media (max-width: 500px) {
 }

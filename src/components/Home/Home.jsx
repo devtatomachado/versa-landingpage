@@ -13,13 +13,19 @@ function Home() {
                 transition={{
                     duration: 1,
                     scale: { type: "spring", visualDuration: 1, bounce: 0.5 },
-                }}>
+                }}
+                className="logo">
                 <img src="LogoBranco.png" alt="Logo da banda Versa" />
             </motion.h1>
             <ul className="list-socialmedia">
                 <li><a href=""><FaInstagram /></a></li>
                 <li><a href=""><FaTiktok /></a></li>
                 <li><a href=""><BiEnvelope /></a></li>
+            </ul>
+            <ul className="list-socialmedia-mobile">
+                <li><a href=""><FaInstagram /> Instagram</a></li>
+                <li><a href=""><FaTiktok /> Tiktok</a></li>
+                <li><a href=""><BiEnvelope /> Email</a></li>
             </ul>
         </section>
     )
